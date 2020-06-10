@@ -1,33 +1,43 @@
+/* Navbar */
 .bg-dark {
-    background-color: #455259 !important;
+  background-color: #455259 !important;
 }
 
-footer.page-footer {
-    bottom: 0;
-    color: #fff;
+.page-footer {
+  bottom: 0;
+  color: #fff;
 }
 
 .special-color-dark {
-    background-color: #263238 !important;
+  background-color: #263238 !important;
 }
 
 .font-small {
-    font-size: .9rem;
+  font-size: 0.9rem;
 }
 
-
-footer.page-footer .footer-copyright {
-    overflow: hidden;
-    color: rgba(255,255,255,0.6);
-    background-color: rgba(0,0,0,0.2);
+.page-footer .footer-copyright {
+  overflow: hidden;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(0, 0, 0, 0.2);
 }
-
 
 .text-center {
-    text-align: center!important;
+  text-align: center !important;
 }
 
-.pb-3, .py-3 {
-    padding-bottom: 1rem!important;
+.pb-3,
+.py-3 {
+  padding-bottom: 1rem !important;
 }
 
+
+/* home.html */
+#item_price {
+  position: relative;
+  left: 115px;
+}
+
+#view_button {
+  margin-left: 40px;
+}
